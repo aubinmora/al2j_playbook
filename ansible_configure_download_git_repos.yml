@@ -203,6 +203,7 @@
       - repo: ansible_socle
       - repo: prometheus_wmi_exporter
       - repo: ansible_playbooks
+      - repo: mattermost_server_install
         folder_dest: /
 
     - name: download prometheus role
