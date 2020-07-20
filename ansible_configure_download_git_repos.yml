@@ -203,8 +203,9 @@
       - repo: ansible_socle
       - repo: prometheus_wmi_exporter
       - repo: ansible_playbooks
-      - repo: mattermost_server_install
         folder_dest: /
+      - repo: mattermost_server_install
+
 
     - name: download prometheus role
       command: ansible-galaxy install cloudalchemy.prometheus
